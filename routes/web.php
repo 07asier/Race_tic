@@ -18,6 +18,10 @@ Route::get('/', function () {
 Route::get('/inicio', function () {
     return view('inicio');
 });
+Route::get('/contacto', function () {
+    return view('contacto');
+});
+
 
 Auth::routes();
 
