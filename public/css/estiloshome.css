@@ -21,8 +21,10 @@ li {
     color: #f05f40;
 }
 #navbar{
-    background-color: white;
+    background-color: #222222;
 }
+
+
 
 
 li a {
@@ -34,17 +36,41 @@ li a {
 }
 
 /*Estilos CUERPO*/
-
+/*
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(30em - 81px);
-    background-image: url("../images/boxes.jpg");
+    background-image: url("../images/f1.jpg");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+}
+*/
+.black{
+    background-color: #222222;
+    text-color:#ff670f !important;
+}
+
+
+.fondodiv{
+    background-color:white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/f1.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blanco{

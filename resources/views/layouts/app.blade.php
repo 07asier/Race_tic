@@ -37,6 +37,7 @@
 
 <!-- Navigation -->
 
+{{--
 <nav class="navbar-inverse" id="navbar">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -55,8 +56,6 @@
             <ul class="nav navbar-nav navbar-right">
 
 
-                <!--<li><a href="register2" id="menus"><span class="glyphicon glyphicon-user color"></span> Registrarse</a></li>
-                <li><a href="login2" id="menus"><span class="glyphicon glyphicon-log-in color"></span> Iniciar sesión</a></li>-->
 
                 @guest
                     <li><a href="register" id="menus"><span class="glyphicon glyphicon-user color"></span> Registrarse</a></li>
@@ -86,7 +85,30 @@
         </div>
     </div>
 </nav>
+--}}
 
+<nav class="navbar-inverse">
+    <div class="container-fluid" id="navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="inicio" id="titulo">Race-tic</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="coches" id="menus">Coches</a></li>
+                <li><a href="contacto" id="menus">Contacto</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="register" id="menus"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+                <li><a href="login" id="menus"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesión</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 @yield('content');
 

@@ -4,27 +4,25 @@
 
 
 
-<header class="masthead text-center text-white d-flex">
+<header class="masthead text-center text-white d-flex parallax">
     <div class="container my-auto">
         <div class="row">
             <div >
                 <h1 class="text-uppercase">
-                    <p>OBTEN LA INFO DE TU COCHE.</p>
+                    <p class="colortitulo">OBTEN LOS DATOS DE TU COCHE.</p>
                     <p>EN UN ABRIR Y CERRAR DE OJOS.</p>
                 </h1>
 
             </div>
             <div>
-
-                <p class="blanco">¿Quieres conocernos?</p>
-                <a class="btn btn-primary btn-lg active"  aria-pressed="true" href="#services">Descubrenos</a>
+                <a class="btn btn-lg  black"  aria-pressed="true" href="#services">Descubrenos</a>
             </div>
         </div>
     </div>
 </header>
 
-<section id="services">
-    <div class="container">
+<section id="services parallax">
+    <div class="container fondodiv">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <hr class="my-4">
@@ -34,7 +32,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row fondodiv">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
                     <img src="images/icons/fast.png"> </img>
@@ -68,24 +66,24 @@
 
 </section>
 
-<section>
+<section parallax>
     <div class="container my-auto">
-        <div class="row">
+        <div class="row fondodiv">
             <div>
                 <hr class="my-4">
                 <h3 class="text-center">Quiénes somos</h3>
-                <p class="text-center">Somos una pequeña empresa del ámbito automovilistico, que analizamos a tiempo real(a través de 4G) los datos de un coche.Mediante un <a href="https://es.wikipedia.org/wiki/OBD">OBD-II </a> almacenamos los datos en la <a href="https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube" >nube</a>, y luego los plasmamos en ésta aplicación web. Es un servicio rápido, fiable y sobre todo sencillo de usar. Ofrecemos la opción de añadir más de un vehiculo a la aplicación. </p>
+                <p class="">Somos una pequeña empresa del ámbito automovilistico, que analizamos a tiempo real(a través de 4G) los datos de un coche.Mediante un <a href="https://es.wikipedia.org/wiki/OBD">OBD-II </a> almacenamos los datos en la <a href="https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube" >nube</a>, y luego los plasmamos en ésta aplicación web. Es un servicio rápido, fiable y sobre todo sencillo de usar. Ofrecemos la opción de añadir más de un vehiculo a la aplicación. </p>
                 <hr class="my-4">
                 <h3 class="text-center">Cómo funciona</h3>
-                <p class="text-center"><li><strong>Paso 1:</strong></li> </br> Enchufar el OBD-II en la ranura del coche </p>
-                <p class="text-center"><li><strong>Paso 2:</strong></li> </br> Introducir el número de serie del OBD-II en el coche, y configurar los datos del coche. </p>
-                <p class="text-center"><li><strong>Paso 3:</strong></li> </br> Listo! </p>
+                <p class=""><li><strong>Paso 1:</strong></li> </br></p><p>Enchufar el OBD-II en la ranura del coche  </p>
+                <p class=""><li><strong>Paso 2:</strong></li> </br></p><p> Introducir el número de serie del OBD-II en el coche, y configurar los datos del coche. </p>
+                <p class=""><li><strong>Paso 3:</strong></li> </br></p><p> Listo! </p>
                 </br>
-                <p class="text-center">Si lo prefieres, puedes seguir este <strong>videotutorial</strong> dónde se explica perfectamente cómo usarlo</p>
+                <!--<p class="text-center">Si lo prefieres, puedes seguir este <strong>videotutorial</strong> dónde se explica perfectamente cómo usarlo</p>-->
 
-                <iframe class="video" width="420" height="315"
+                <!--<iframe class="video parallax" width="420" height="315"
                         src="https://www.youtube.com/embed/668ivwslgxY?autoload=1">
-                </iframe>
+                </iframe>-->
 
             </div>
         </div>

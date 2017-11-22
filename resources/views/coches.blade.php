@@ -3,24 +3,77 @@
 @section('content')
 
 
-    <div class="form-group">
-        <label for="status" class="col-sm-3 control-label">Status</label>
-        <div class="col-sm-9">
-            <select class="form-control" id="status" name="status">
-                <option>Paid</option>
-                <option>Unpaid</option>
-            </select>
+    <div class="container">
+        <div class="row">
+            <h3>Añade tu coche</h3>
         </div>
     </div>
 
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-8 "> <!-- col-md-8 -->
+                <div class="">
+                    <form>
+                        <div class="row">
 
-    <div class="form-group">
-        <label class="col-md-3 control-label" for="message">Your message</label>
-        <div class="col-md-9">
-            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                            <div class="">
+                                <div class="form-group">
+                                    <label for="numserie">
+                                        Numero de serie</label>
+                                    <div class="input-group">
+                                <span class="">
+                                </span>
+                                        <input type="text" class="form-control" id="numserie" placeholder="" required="required" /></div>
+                                </div>
+
+
+
+
+
+                                <div class="form-group">
+                                    <label for="subject">
+                                        Marca</label>
+                                    <select id="subject" name="marca" class="form-control" required="required">
+                                        <option value="na" selected="">Escoja uno por favor:</option>
+                                        <option value="service">AUDI</option>
+                                        <option value="suggestions">BMW</option>
+                                        <option value="product">NISSAN</option>
+                                        <option value="product">TOYOTA</option>
+                                        <option value="product">HONDA</option>
+                                        <option value="product">FORD</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="motor">
+                                    Motorizacion</label>
+                                <div class="input-group">
+                                <span class="">
+                                </span>
+                                    <input type="text" class="form-control" id="motor" placeholder="" required="required" /></div>
+                            </div>
+
+
+                            <div class="">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Mensaje</label>
+                                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                              placeholder="Mensaje"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                    Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-
 
 
 

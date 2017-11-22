@@ -22,6 +22,10 @@ Route::get('/contacto', function () {
     return view('contacto');
 });
 
+Route::get('/coches', function () {
+    return view('coches');
+});
+
 
 Auth::routes();
 
