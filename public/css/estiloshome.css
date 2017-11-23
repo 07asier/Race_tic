@@ -58,13 +58,15 @@ header.masthead {
 .colordesc{
     background-color: #222222;
     color:#f05f40;
-
 }
 
 .colordesc:hover{
     color:red;
+}
 
-
+.imgmitad{
+    display:block;
+    margin:0 auto;
 }
 
 .transition{
@@ -77,10 +79,13 @@ header.masthead {
 }
 
 h1{
-    font-family: proxima-nova, sans-serif;
+    font-family: 'Vollkorn SC', serif;
     color : white
 }
 
+h2,h3,h4{
+    font-family: 'Vollkorn SC', serif;
+}
 
 .parallax {
     /* The image used */
