@@ -10,7 +10,7 @@
     </div>
 
     <div class="container ">
-        <div class="row">
+        <div class="row well-sm well">
             <div class="col-md-8 "> <!-- col-md-8 -->
                 <div class="">
                     <form>
@@ -49,6 +49,15 @@
                             <div class="form-group">
                                 <label for="motor">
                                     Motorizacion</label>
+                                <div class="input-group">
+                                <span class="">
+                                </span>
+                                    <input type="text" class="form-control" id="motor" placeholder="" required="required" /></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="modelo">
+                                    Modelo</label>
                                 <div class="input-group">
                                 <span class="">
                                 </span>
