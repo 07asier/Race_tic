@@ -66,4 +66,9 @@
         </div>
     </div>
 </div>
+
+<div class="container text-center">
+    <img src="../images/raceticadmin.png" />
+</div>
+
 @endsection

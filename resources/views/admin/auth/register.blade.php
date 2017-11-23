@@ -69,7 +69,7 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
-                                    Register
+                                    Registro
                                 </button>
                             </div>
                         </div>
@@ -79,4 +79,9 @@
         </div>
     </div>
 </div>
+
+<div class="container text-center">
+    <img src="../images/raceticadmin.png" />
+</div>
+
 @endsection

@@ -106,8 +106,9 @@
             <ul class="nav navbar-nav navbar-right">
 
                 @guest
-                    <li><a href="register" id="menus"><span class="glyphicon glyphicon-user colorlogres"></span> Registrarse</a></li>
+
                     <li><a href="login" id="menus"><span class="glyphicon glyphicon-log-in colorlogres"></span> Iniciar sesión</a></li>
+                    <li><a href="register" id="menus"><span class="glyphicon glyphicon-user colorlogres"></span> Registro</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
