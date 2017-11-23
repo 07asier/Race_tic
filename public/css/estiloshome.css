@@ -24,8 +24,9 @@ li {
     background-color: #222222;
 }
 
-
-
+.colorlogres{
+    color:#f05f40;
+}
 
 li a {
     display: block;
@@ -49,15 +50,37 @@ header.masthead {
 
 }
 */
-.black{
-    background-color: #222222;
-    text-color:#ff670f !important;
-}
-
 
 .fondodiv{
     background-color:white;
 }
+
+.colordesc{
+    background-color: #222222;
+    color:#f05f40;
+
+}
+
+.colordesc:hover{
+    color:red;
+
+
+}
+
+.transition{
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+.blanco{
+    color:white;
+}
+
+h1{
+    font-family: proxima-nova, sans-serif;
+    color : white
+}
+
 
 .parallax {
     /* The image used */
@@ -73,14 +96,7 @@ header.masthead {
     background-size: cover;
 }
 
-.blanco{
-    color:white;
-}
 
-h1{
-    font-family: proxima-nova, sans-serif;
-    color : white
-}
 
 .video{
     display:block;

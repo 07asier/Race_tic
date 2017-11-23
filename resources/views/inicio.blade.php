@@ -15,13 +15,13 @@
 
             </div>
             <div>
-                <a class="btn btn-lg  black"  aria-pressed="true" href="#services">Descubrenos</a>
+                <a class="btn btn-lg colordesc transition"  aria-pressed="true" href="#services">Descubrenos</a>
             </div>
         </div>
     </div>
 </header>
 
-<section id="services parallax">
+<section id="services">
     <div class="container fondodiv">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -73,11 +73,7 @@
                 <hr class="my-4">
                 <h3 class="text-center">Quiénes somos</h3>
                 <p class="">Somos una pequeña empresa del ámbito automovilistico, que analizamos a tiempo real(a través de 4G) los datos de un coche.Mediante un <a href="https://es.wikipedia.org/wiki/OBD">OBD-II </a> almacenamos los datos en la <a href="https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube" >nube</a>, y luego los plasmamos en ésta aplicación web. Es un servicio rápido, fiable y sobre todo sencillo de usar. Ofrecemos la opción de añadir más de un vehiculo a la aplicación. </p>
-                <hr class="my-4">
-                <h3 class="text-center">Cómo funciona</h3>
-                <p class=""><li><strong>Paso 1:</strong></li> </br></p><p>Enchufar el OBD-II en la ranura del coche  </p>
-                <p class=""><li><strong>Paso 2:</strong></li> </br></p><p> Introducir el número de serie del OBD-II en el coche, y configurar los datos del coche. </p>
-                <p class=""><li><strong>Paso 3:</strong></li> </br></p><p> Listo! </p>
+
                 </br>
                 <!--<p class="text-center">Si lo prefieres, puedes seguir este <strong>videotutorial</strong> dónde se explica perfectamente cómo usarlo</p>-->
 
